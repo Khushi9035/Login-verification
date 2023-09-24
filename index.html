@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body class="bg-[url(https://newmibridges.michigan.gov/resource/1690024283000/ISD_Icons/registration/background-image-desktop.svg)] ">
+    <div class="h-screen flex items-center content-center">
+        <div class= " bg-blue-100 w-4/12 rounded-md shadow-xl shadow-indigo-900 m-auto ">
+            <p  class="text-center text-2xl">Login Yourself Here!..</p>
+            <label for="username"  class="items-center" >User id:</label>
+            <p><input type="text" id="user" class=" border-4 hover:border-2 hover:border-slate-400 cursor-pointer" 
+                placeholder="Enter userid" required></p>
+            <label for="password" >Password:</label>
+            <p><input type="password" id="password" class="border-4 hover:border-2 hover:border-slate-400 cursor-pointer"
+                 placeholder="Enter password" id="pass" required></p>
+           <button type="button" onclick=" return validate()" class="text-center m-4 p-2 rounded-md bg-slate-700 text-white items-center hover:bg-gray-800 cursor-pointer">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
